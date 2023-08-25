@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashashri's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35e0837da3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Yashashri</span><br>Pawar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------about-------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aspiring B Tech Graduate with interest in Python Full Stack. <br>
+                        Worked on multiple projects involving Web development with Python.<br> 
+                        Familiar with languages such as Python, Java, SQL, REST API, Django, Cloud.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiance')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Core Technologies</span><br>Python, Java, Java Script</li>
+                                <li><span>Web Technologies</span><br>HTML, CSS, Bootstrap</li>
+                                <li><span>Database</span><br>MySQL, PostgreSQL</li>
+                                <li><span>Frameworks</span><br>Django, Flask, FastAPI</li>
+                                <li><span>Cloud Technology</span><br>AWS</li>
+                                <li><span>GUI</span><br>Tkinter</li>
+                                <li><span>Frameworks</span><br>NumPy, Pandas, Matplotlib</li>
+                                <li><span>Tools</span><br>Eclipse, Visual Studio Code, IntilliJ IDEA, Jupyter</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>June 2023 - July 2023</span><br>Software Development Intern at JP Morgan & Chase <br><br>
+                                    <i>Learned about the software design principles like agile methodology. Also, <br>
+                                    got to know about the Open Source Software System. Worked for some <br>
+                                    Open Source contribution under JP Morgan & Chase. The Internship was in<br> 
+                                    virtual mode in associated with Forage</i>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>B Tech (Civil) At <br>
+                                    SSVP’s BSD College of Engineering, Dhule<br>
+                                    Dr. Babasaheb Ambedkar Technical University, Lonere<br> 
+                                    CGPA - 8.7
+                                    </li>
+                                <li><span>2019</span><br>HSC At<br>
+                                    Infinity junior college, Morane (Dhule)<br>
+                                    Maharashtra State Board<br>
+                                    Percentage - 72.46
+                                    </li>
+                                <li><span>2017</span><br>SSC At<br>
+                                    Jai-Hind Highschool, Dhule<br>
+                                    Maharashtra State Board<br>
+                                    Percentage - 93
+                                    </li>
+                            </ul>
+                        </div>
+                </div>
+                <a href="#" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------services---------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Full Stack Developement</h2>
+                    <p>
+                        Bringing innovation to life through Python.
+                        I specialize in crafting efficient and scalable solutions,
+                        from web applications to automation scripts. With a keen eye for
+                        detail and a passion for clean code, I'm dedicated to delivering 
+                        robust and elegant solutions that exceed expectations.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Backend Developement</h2>
+                    <p>
+                        Empowering applications with a strong backend foundation. 
+                        I specialize in architecting and implementing server-side logic, 
+                        APIs, and databases. With proven experience in Python and backend 
+                        technologies, I ensure seamless data flow, security, and 
+                        high-performance for applications of all scales. 
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Script Writter</h2>
+                    <p>
+                        Transforming concepts into functional Python scripts. 
+                        I offer custom scripting solutions tailored to your needs, 
+                        whether it's automating tasks, data processing, or building utilities. 
+                        With a knack for efficiency and problem-solving, I deliver Python scripts 
+                        that streamline processes and enhance productivity.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Business Intelligence</h2>
+                    <p>
+                        Turning data into actionable insights. As a business intelligence expert, 
+                        I harness the power of Python to analyze, visualize, and interpret complex data sets. 
+                        From data mining to dashboard creation, I help businesses make informed 
+                        decisions and drive growth through data-driven strategies.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Complete SaaS Product Solution</h2>
+                    <p>
+                        From concept to launch, I specialize in crafting end-to-end SaaS products. 
+                        Using Python and cutting-edge technologies, I develop intuitive user 
+                        interfaces, scalable backends, and robust architecture. 
+                        Let's collaborate to bring your SaaS vision to life, ensuring a seamless user 
+                        experience and business success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Dashboard Django App (End to End)
+                        </h3>
+                        <p>Created a Dashboard Based complete app using python Django. The main 
+                            vision of this project is to better visualize data with dashboard. The app also 
+                            uses PostgreSQL Database to make Django app fully End to End Solution.
+                        </p>
+                        <a href="https://github.com/yashipawar/Income-expense-website"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>RESTful API with Python</h3>
+                        <p>Created REST API app using Django. Which works on the company data and 
+                            give the relevant solution based on REST API
+                        </p>
+                            <a href="https://github.com/yashipawar/RestfulAPI"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>SaaS AI Platform App</h3>
+                        <p>An integrated SaaS solution developed using Next.js, React, and Tailwind CSS, 
+                            supported by Prisma and Stripe. It seamlessly integrates Open AI's API to 
+                            offer an array of AI services, including conversational AI, image recognition, 
+                            audio processing, video analysis, and coding assistance</p>
+                            <a href="https://github.com/yashipawar/SaaS-AI"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------contact---------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>Yashashri11.work@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Yashipawar24"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/yashashri-pawar-904a42256/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/yashipawar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://resume.io/r/OMtDAYFdL" download class="btn btn2">Resume Review</a>
+                    <a href="#" class="btn">Hire Me</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ yashashri. made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgbzt8rpsMBkg_NiGaKTNrpmWN93TjjWOcJ-neMLMggedZMWVB2UBh68PvhsgtBcSJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000) 
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
